@@ -30,16 +30,16 @@ O objetivo é praticar:
 celsiusParaFahrenheit(celsius)
 ```
 
-### Fórmula Matemática
+### Fórmula
 
-\[
-F = \frac{9}{5} \times C + 32
-\]
+```text
+F = (9 / 5) * C + 32
+```
 
 Onde:
 
-- \(F\) = temperatura em Fahrenheit
-- \(C\) = temperatura em Celsius
+- F → temperatura em Fahrenheit
+- C → temperatura em Celsius
 
 ### Exemplo
 
@@ -63,11 +63,11 @@ celsiusParaFahrenheit(30)
 horasParaMinutos(horas)
 ```
 
-### Fórmula Matemática
+### Fórmula
 
-\[
-Minutos = Horas \times 60
-\]
+```text
+Minutos = Horas * 60
+```
 
 ### Exemplo
 
@@ -97,11 +97,11 @@ idadeEmDias(idade)
 1 ano = 365 dias
 ```
 
-### Fórmula Matemática
+### Fórmula
 
-\[
-Dias = Idade \times 365
-\]
+```text
+Dias = Idade * 365
+```
 
 ### Exemplo
 
@@ -125,11 +125,11 @@ idadeEmDias(20)
 kmParaMetros(km)
 ```
 
-### Fórmula Matemática
+### Fórmula
 
-\[
-Metros = Quilômetros \times 1000
-\]
+```text
+Metros = Quilômetros * 1000
+```
 
 ### Exemplo
 
@@ -153,11 +153,11 @@ kmParaMetros(3)
 consumoMedio(distancia, litros)
 ```
 
-### Fórmula Matemática
+### Fórmula
 
-\[
-Consumo = \frac{Distância}{Litros}
-\]
+```text
+Consumo = Distância / Litros
+```
 
 Onde:
 
@@ -242,6 +242,4 @@ Ao concluir este exercício, o estudante deverá ser capaz de:
 - criar funções reutilizáveis;
 - organizar código em módulos JavaScript;
 - aplicar fórmulas matemáticas em programação;
-- utilizar import/export;
-- testar funcionalidades utilizando Node.js ou navegador.
 
