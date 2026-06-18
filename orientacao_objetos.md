@@ -77,7 +77,7 @@ horas = minutos / 60
 Ao final do arquivo `conversor.js`, exporte a classe:
 
 ```javascript
-export { Conversor };
+module.exports =  Conversor;
 ```
 
 ---
@@ -87,7 +87,7 @@ export { Conversor };
 Importe a classe e utilize-a:
 
 ```javascript
-import { Conversor } from './conversor.js';
+const Conversor  = require('./conversor.js');
 
 const conversor = new Conversor();
 ```
@@ -117,7 +117,7 @@ Realize as seguintes conversões:
 ## Exemplo de Utilização
 
 ```javascript
-import { Conversor } from './conversor.js';
+const Conversor  = require('./conversor.js');
 
 const conversor = new Conversor();
 
